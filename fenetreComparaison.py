@@ -110,7 +110,7 @@ def createComparisonWindow(results,comparison_results_puissances, comparison_res
     def pressSelectedButton(event):
         for key in buttonList:
             _VARS['window'][key].Widget.config(relief="raised")
-       _VARS['window'][event].Widget.config(relief="sunken")
+        _VARS['window'][event].Widget.config(relief="sunken")
     
     #Fonction permettant de mettre à jour la table des résultats
     def updateTable(table, dataXY):
